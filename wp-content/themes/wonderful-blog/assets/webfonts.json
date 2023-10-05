@@ -1,0 +1,188 @@
+{
+    "kind": "webfonts#webfontList",
+    "items": [
+
+        {
+            "kind": "webfonts#webfont",
+            "family": "Raleway",
+            "category": "sans-serif",
+            "variants": [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic"
+            ],
+            "subsets": [
+                "latin",
+                "latin-ext"
+            ],
+            "version": "v12",
+            "lastModified": "2017-10-11",
+            "files": {
+                "100": "http://fonts.gstatic.com/s/raleway/v12/1Ptsg8zYS_SKggPNwE4ISg.ttf",
+                "100italic": "http://fonts.gstatic.com/s/raleway/v12/1Ptqg8zYS_SKggPNyCgwLoFv.ttf",
+                "200": "http://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwOIpaqE.ttf",
+                "200italic": "http://fonts.gstatic.com/s/raleway/v12/1Ptpg8zYS_SKggPNyCgwgqBPBQ.ttf",
+                "300": "http://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwIYqaqE.ttf",
+                "300italic": "http://fonts.gstatic.com/s/raleway/v12/1Ptpg8zYS_SKggPNyCgw5qNPBQ.ttf",
+                "regular": "http://fonts.gstatic.com/s/raleway/v12/1Ptug8zYS_SKggPN-Co.ttf",
+                "italic": "http://fonts.gstatic.com/s/raleway/v12/1Ptsg8zYS_SKggPNyCgISg.ttf",
+                "500": "http://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwN4raqE.ttf",
+                "500italic": "http://fonts.gstatic.com/s/raleway/v12/1Ptpg8zYS_SKggPNyCgwvqJPBQ.ttf",
+                "600": "http://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwPIsaqE.ttf",
+                "600italic": "http://fonts.gstatic.com/s/raleway/v12/1Ptpg8zYS_SKggPNyCgwkqVPBQ.ttf",
+                "700": "http://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwJYtaqE.ttf",
+                "700italic": "http://fonts.gstatic.com/s/raleway/v12/1Ptpg8zYS_SKggPNyCgw9qRPBQ.ttf",
+                "800": "http://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwIouaqE.ttf",
+                "800italic": "http://fonts.gstatic.com/s/raleway/v12/1Ptpg8zYS_SKggPNyCgw6qdPBQ.ttf",
+                "900": "http://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwK4vaqE.ttf",
+                "900italic": "http://fonts.gstatic.com/s/raleway/v12/1Ptpg8zYS_SKggPNyCgwzqZPBQ.ttf"
+            }
+        },
+        {
+            "kind": "webfonts#webfont",
+            "family": "Prata",
+            "category": "serif",
+            "variants": [
+                "regular"
+            ],
+            "subsets": [
+                "latin",
+                "vietnamese",
+                "cyrillic",
+                "cyrillic-ext"
+            ],
+            "version": "v8",
+            "lastModified": "2017-10-10",
+            "files": {
+                "regular": "http://fonts.gstatic.com/s/prata/v8/6xKhdSpbNNCT-vWI.ttf"
+            }
+        },
+        {
+            "kind": "webfonts#webfont",
+            "family": "Merriweather",
+            "category": "serif",
+            "variants": [
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "700",
+                "700italic",
+                "900",
+                "900italic"
+            ],
+            "subsets": [
+                "latin",
+                "vietnamese",
+                "latin-ext",
+                "cyrillic",
+                "cyrillic-ext"
+            ],
+            "version": "v19",
+            "lastModified": "2017-11-07",
+            "files": {
+                "300": "http://fonts.gstatic.com/s/merriweather/v19/u-4n0qyriQwlOrhSvowK_l521wRpXw.ttf",
+                "300italic": "http://fonts.gstatic.com/s/merriweather/v19/u-4l0qyriQwlOrhSvowK_l5-eR7lXcf_.ttf",
+                "regular": "http://fonts.gstatic.com/s/merriweather/v19/u-440qyriQwlOrhSvowK_l5Oew.ttf",
+                "italic": "http://fonts.gstatic.com/s/merriweather/v19/u-4m0qyriQwlOrhSvowK_l5-eSZJ.ttf",
+                "700": "http://fonts.gstatic.com/s/merriweather/v19/u-4n0qyriQwlOrhSvowK_l52xwNpXw.ttf",
+                "700italic": "http://fonts.gstatic.com/s/merriweather/v19/u-4l0qyriQwlOrhSvowK_l5-eR71Wsf_.ttf",
+                "900": "http://fonts.gstatic.com/s/merriweather/v19/u-4n0qyriQwlOrhSvowK_l52_wFpXw.ttf",
+                "900italic": "http://fonts.gstatic.com/s/merriweather/v19/u-4l0qyriQwlOrhSvowK_l5-eR7NWMf_.ttf"
+            }
+        },
+        {
+            "kind": "webfonts#webfont",
+            "family": "Poppins",
+            "category": "sans-serif",
+            "variants": [
+                "100",
+                "100italic",
+                "200",
+                "200italic",
+                "300",
+                "300italic",
+                "regular",
+                "italic",
+                "500",
+                "500italic",
+                "600",
+                "600italic",
+                "700",
+                "700italic",
+                "800",
+                "800italic",
+                "900",
+                "900italic"
+            ],
+            "subsets": [
+                "latin",
+                "devanagari",
+                "latin-ext"
+            ],
+            "version": "v5",
+            "lastModified": "2017-11-21",
+            "files": {
+                "100": "http://fonts.gstatic.com/s/poppins/v5/pxiGyp8kv8JHgFVrLPTedw.ttf",
+                "100italic": "http://fonts.gstatic.com/s/poppins/v5/pxiAyp8kv8JHgFVrJJLmE3tF.ttf",
+                "200": "http://fonts.gstatic.com/s/poppins/v5/pxiByp8kv8JHgFVrLFj_V1s.ttf",
+                "200italic": "http://fonts.gstatic.com/s/poppins/v5/pxiDyp8kv8JHgFVrJJLmv1plEA.ttf",
+                "300": "http://fonts.gstatic.com/s/poppins/v5/pxiByp8kv8JHgFVrLDz8V1s.ttf",
+                "300italic": "http://fonts.gstatic.com/s/poppins/v5/pxiDyp8kv8JHgFVrJJLm21llEA.ttf",
+                "regular": "http://fonts.gstatic.com/s/poppins/v5/pxiEyp8kv8JHgFVrFJA.ttf",
+                "italic": "http://fonts.gstatic.com/s/poppins/v5/pxiGyp8kv8JHgFVrJJLedw.ttf",
+                "500": "http://fonts.gstatic.com/s/poppins/v5/pxiByp8kv8JHgFVrLGT9V1s.ttf",
+                "500italic": "http://fonts.gstatic.com/s/poppins/v5/pxiDyp8kv8JHgFVrJJLmg1hlEA.ttf",
+                "600": "http://fonts.gstatic.com/s/poppins/v5/pxiByp8kv8JHgFVrLEj6V1s.ttf",
+                "600italic": "http://fonts.gstatic.com/s/poppins/v5/pxiDyp8kv8JHgFVrJJLmr19lEA.ttf",
+                "700": "http://fonts.gstatic.com/s/poppins/v5/pxiByp8kv8JHgFVrLCz7V1s.ttf",
+                "700italic": "http://fonts.gstatic.com/s/poppins/v5/pxiDyp8kv8JHgFVrJJLmy15lEA.ttf",
+                "800": "http://fonts.gstatic.com/s/poppins/v5/pxiByp8kv8JHgFVrLDD4V1s.ttf",
+                "800italic": "http://fonts.gstatic.com/s/poppins/v5/pxiDyp8kv8JHgFVrJJLm111lEA.ttf",
+                "900": "http://fonts.gstatic.com/s/poppins/v5/pxiByp8kv8JHgFVrLBT5V1s.ttf",
+                "900italic": "http://fonts.gstatic.com/s/poppins/v5/pxiDyp8kv8JHgFVrJJLm81xlEA.ttf"
+            }
+        },
+        {
+            "kind": "webfonts#webfont",
+            "family": "Lora",
+            "category": "serif",
+            "variants": [
+                "regular",
+                "italic",
+                "700",
+                "700italic"
+            ],
+            "subsets": [
+                "latin",
+                "vietnamese",
+                "latin-ext",
+                "cyrillic",
+                "cyrillic-ext"
+            ],
+            "version": "v12",
+            "lastModified": "2017-11-07",
+            "files": {
+                "regular": "http://fonts.gstatic.com/s/lora/v12/0QIvMX1D_JOuAw0.ttf",
+                "italic": "http://fonts.gstatic.com/s/lora/v12/0QIhMX1D_JOuMw_7Jg.ttf",
+                "700": "http://fonts.gstatic.com/s/lora/v12/0QIgMX1D_JOuO7HeBts.ttf",
+                "700italic": "http://fonts.gstatic.com/s/lora/v12/0QIiMX1D_JOuMw_Dmt5unw.ttf"
+            }
+        }
+    ]
+}

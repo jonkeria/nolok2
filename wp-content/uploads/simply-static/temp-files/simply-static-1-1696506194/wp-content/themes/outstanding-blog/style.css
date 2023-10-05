@@ -1,0 +1,276 @@
+/*!
+Theme Name: Outstanding Blog
+Theme URI: https://adorethemes.com/downloads/outstanding-blog/
+Author: Adore Themes
+Author URI: https://adorethemes.com/
+Description: Outstanding Blog is a minimalist and lightweight WordPress theme designed for creating professional blogging websites. The theme has a clean design and is ideal for various blog types, such as fashion, lifestyle, travel, food, and photography. Outstanding Blog is mobile-friendly and cross-browser compatible, making it accessible across various devices and screen sizes. The theme is also translation-ready, allowing you to create blogs in any language. Overall, Outstanding Blog offers a user-friendly interface, modern and creative design, and range of features suitable for building engaging and unique blog websites. Live preview : https://demo.adorethemes.com/outstanding-blog/
+Version: 1.0.0
+Requires at least: 5.0
+Requires PHP: 7.4
+Tested up to: 6.3
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template: wonderful-blog
+Text Domain: outstanding-blog
+Tags: custom-background, custom-header, custom-logo, custom-menu, featured-images, footer-widgets, left-sidebar, right-sidebar, blog, one-column, portfolio, photography, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Outstanding Blog is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+
+*/
+:root{
+	--post-item-background: #fff;
+	--body-background: #ffeee2;
+	--primary-color: #ff4949;
+	--header-text-color: #614d47;
+	--color-text: #614d47;
+	--color-background: #ffeee2;
+	--header-bg-color: #ffeee2;
+
+	/* font family */
+	--font-head: 'Merriweather', serif;
+	--font-body: "Poppins", sans-serif;
+	--font-site-title: 'Merriweather', serif;
+	--font-tagline: "Poppins", sans-serif;
+}
+
+.adore-header {
+	background-color: var(--header-bg-color);
+	border-bottom: 1px solid rgba(155,155,155,0.2);
+}
+
+.post-item .post-item-content .entry-title{
+	letter-spacing: 0.5px;
+}
+
+/* Start Recent post
+--------------------------------------------- */
+.recentpost-wrapper {
+	display: grid;
+	gap: 30px;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.recentpost.recent-style-2 .recentpost-wrapper {
+	grid-template-columns: repeat(3, 1fr);
+	gap: 30px;
+}
+
+.recentpost.recent-style-2 .post-item.overlay-post {
+	height: auto;
+	min-height: 250px;
+	aspect-ratio: unset;
+}
+
+.recentpost.recent-style-2 .post-item.overlay-post:nth-child(2),
+.recentpost.recent-style-2 .post-item.overlay-post:first-child {
+	grid-row: span 2;
+}
+
+.recentpost.recent-style-2 .post-item.overlay-post:nth-child(2) .post-item-content .entry-title,
+.recentpost.recent-style-2 .post-item.overlay-post:first-child .post-item-content .entry-title {
+	font-size: var(--font-size-md);
+}
+
+
+@media (max-width: 768px) {
+	.recentpost-wrapper {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.recentpost.recent-style-2 .recentpost-wrapper {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 15px;
+	}
+
+	.recentpost.recent-style-2 .post-item.overlay-post:first-child {
+		grid-column: span 2;
+	}
+
+}
+
+@media (max-width: 600px) {
+	.recentpost-wrapper {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.recentpost.recent-style-2 .recentpost-wrapper {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.recentpost.recent-style-2 .post-item.overlay-post:first-child {
+		grid-column: span 1;
+	}
+
+	.recentpost.recent-style-2 .post-item.overlay-post:nth-child(2),
+	.recentpost.recent-style-2 .post-item.overlay-post:first-child {
+		grid-row: span 1;
+	}
+}
+
+/* End Recent post
+--------------------------------------------- */
+
+/* Social Widget
+--------------------------------------------- */
+.adore-widget.social-widget .social-widgets-wrap a {
+	font-size: var(--font-size-sm);
+	padding: 12px;
+	opacity: 1;
+	width: auto;
+	height: auto;
+	color: #fff;
+	line-height: 1;
+	overflow: visible;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+	opacity: 0.8;
+}
+
+.adore-widget.social-widget .social-widgets-wrap a[href*='facebook.com'] {
+	background-color: #3b5999;
+}
+
+.adore-widget.social-widget .social-widgets-wrap a[href*='twitter.com'] {
+	background-color: #55acee;
+}
+
+.adore-widget.social-widget .social-widgets-wrap a[href*='instagram.com'] {
+	background-color: #3F729B;
+}
+
+.adore-widget.social-widget .social-widgets-wrap a[href*='youtube.com'] {
+	background-color: #cd201f;
+}
+
+.adore-widget.social-widget .social-widgets-wrap a[href*='discord.com'] {
+	background-color: #5865F2;
+}
+
+.adore-widget.social-widget .social-widgets-wrap a[href*='dribbble.com'] {
+	background-color: #ea4c89;
+}
+
+.adore-widget.social-widget .social-widgets-wrap a[href*='google.com'] {
+	background-color: #dd4b39;
+}
+
+.adore-widget.social-widget .social-widgets-wrap a[href*='line.me'] {
+	background-color: #00b900;
+}
+
+.adore-widget.social-widget .social-widgets-wrap a[href*='linkedin.com'] {
+	background-color: #0e76a8;
+}
+
+.adore-widget.social-widget .social-widgets-wrap a[href*='medium.com'] {
+	background-color: #66cdaa;
+}
+
+.adore-widget.social-widget .social-widgets-wrap a[href*='messenger.com'] {
+	background-color: #006AFF;
+}
+
+.adore-widget.social-widget .social-widgets-wrap a[href*='paypal.com'] {
+	background-color: #3b7bbf;
+}
+
+.adore-widget.social-widget .social-widgets-wrap a[href*='pinterest.com'] {
+	background-color: #E60023;
+}
+
+.adore-widget.social-widget .social-widgets-wrap a[href*='reddit.com'] {
+	background-color: #ff5700;
+}
+
+.adore-widget.social-widget .social-widgets-wrap a[href*='skype.com'] {
+	background-color: #00aff0;
+}
+
+.adore-widget.social-widget .social-widgets-wrap a[href*='slack.com'] {
+	background-color: #ECB22E;
+}
+
+.adore-widget.social-widget .social-widgets-wrap a[href*='snapchat.com'] {
+	background-color: #FFFC00;
+}
+
+.adore-widget.social-widget .social-widgets-wrap a[href*='spotify.com'] {
+	background-color: #1DB954;
+}
+
+.adore-widget.social-widget .social-widgets-wrap a[href*='stackoverflow.com'] {
+	background-color: #F47F24;
+}
+
+.adore-widget.social-widget .social-widgets-wrap a[href*='telegram.org'] {
+	background-color: #229ED9;
+}
+
+.adore-widget.social-widget .social-widgets-wrap a[href*='twitch.tv'] {
+	background-color: #6441a5;
+}
+
+.adore-widget.social-widget .social-widgets-wrap a[href*='vimeo.com'] {
+	background-color: #86c9ef;
+}
+
+.adore-widget.social-widget .social-widgets-wrap a[href*='whatsapp.com'] {
+	background-color: #34B7F1;
+}
+
+.adore-widget.social-widget .social-widgets-wrap a[href*='wordpress.org'] {
+	background-color: #21759b;
+}
+
+.adore-widget.social-widget .social-widgets-wrap a[href*='youtube.com'] {
+	background-color: #c4302b;
+}
+
+.adore-widget.social-widget .social-widgets-wrap a:focus,
+.adore-widget.social-widget .social-widgets-wrap a:hover {
+	opacity: 1;
+}
+
+.social-widget.style-2 .social-widgets-wrap {
+	gap: 5px;
+}
+
+.social-widget.style-2 .social-widgets-wrap a {
+	padding: 12px 20px;
+	padding-inline-start: 12px;
+}
+
+.social-widget.style-2 .social-widgets-wrap a .screen-reader-text {
+	clip: unset;
+	clip-path: unset;
+	height: auto;
+	width: auto;
+	margin: 0;
+	position: relative !important;
+	overflow: visible;
+	color: #fff;
+	top: inherit;
+	margin-inline-start: 5px;
+}
+
+/* End Social Widget
+--------------------------------------------- */
+
+/* Archive List Style 
+--------------------------------------------- */
+@media (min-width:991px) {
+	.theme-archive-layout.list-layout.list-style-3 article:nth-child(even) .post-item.post-list {
+		flex-direction: row-reverse;
+	}
+}
+/* End Archive List Style 
+--------------------------------------------- */

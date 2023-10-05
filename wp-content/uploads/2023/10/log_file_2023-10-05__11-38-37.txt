@@ -1,0 +1,71 @@
+
+---Upload files---
+Redux file was not uploaded. Error: No file provided.
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/nolok2
+Data file = C:\xampp\htdocs\nolok2/wp-content/uploads/2023/10/content.xml
+Widget file = C:\xampp\htdocs\nolok2/wp-content/uploads/2023/10/widgets.wie
+Customizer file = C:\xampp\htdocs\nolok2/wp-content/uploads/2023/10/customizer.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Sidebar : 
+
+Adore Widget: Author Info Widget - About Myself - Imported
+Adore Widget: Featured Posts Widget - Featured Posts - Imported
+Adore Widget: Grid Posts Widget - Grid Posts - Imported
+Adore Widget: Social Widget - Follow Us On: - Imported
+
+Footer Widget Area 1 : 
+
+Text - Outstanding Blog - Imported
+Adore Widget: Social Widget - Follow Us On: - Imported
+
+Footer Widget Area 2 : 
+
+Adore Widget: Featured Posts Widget - Featured Posts - Imported
+
+Footer Widget Area 3 : 
+
+Adore Widget: Featured Posts Widget - Trending Posts - Imported
+
+Footer Widget Area 4 : 
+
+Adore Widget: Featured Posts Widget - Latest Posts - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+
